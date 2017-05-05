@@ -1,0 +1,23 @@
+PODS:
+  - ZWBaseManager (0.1.3):
+    - ZWBaseManager/Base (= 0.1.3)
+    - ZWBaseManager/Category (= 0.1.3)
+  - ZWBaseManager/Base (0.1.3)
+  - ZWBaseManager/Category (0.1.3)
+  - ZWOpinion (0.1.0):
+    - ZWBaseManager
+
+DEPENDENCIES:
+  - ZWOpinion (from `../`)
+
+EXTERNAL SOURCES:
+  ZWOpinion:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZWBaseManager: 33b323f231b7111004616e986099ffebd8d19adc
+  ZWOpinion: 10e7bc027811af5d3e7eea76ba66374341321066
+
+PODFILE CHECKSUM: 423ebf3493e48c7284bd06b5ad3cc3874b455016
+
+COCOAPODS: 1.2.0.beta.1
