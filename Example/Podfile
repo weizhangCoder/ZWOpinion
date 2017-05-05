@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZWOpinion_Example' do
+  pod 'ZWOpinion', :path => '../'
+
+  target 'ZWOpinion_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
